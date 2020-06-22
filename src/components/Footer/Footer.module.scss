@@ -1,0 +1,22 @@
+.footer_container {
+    padding: 25px;
+    text-align: center;
+
+    .footer_span {
+        color: rgb(240, 27, 27);
+        border-radius: 5px;
+        padding: 5px;
+
+        &:hover {
+            background-color: rgba(73, 73, 255, 0.185);
+            color: rgb(80, 80, 80);
+        }
+    }
+
+    .social_icons {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding: 15px;
+    }
+}

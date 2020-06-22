@@ -1,0 +1,106 @@
+.contact_section {
+  padding: 25px 0;
+  text-align: center;
+  background-color: #2A2A2A;
+}
+
+.contact_section .form {
+  -webkit-box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.06), 5px 5px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.06), 5px 5px 15px rgba(0, 0, 0, 0.4);
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px 40px 70px;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+}
+
+.contact_section .form h2 {
+  color: #ebc20b;
+  font-weight: 400;
+  font-size: 38px;
+  font-family: Anton;
+}
+
+.contact_section .form p {
+  color: #fff;
+  font-family: "Hind Siliguri";
+}
+
+.contact_section .form form {
+  margin: 0 auto;
+  padding: 25px 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.contact_section .form form .input_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  width: 100%;
+  margin: 25px 0;
+}
+
+.contact_section .form form .input_group label {
+  color: #858585;
+  padding: 5px 0;
+  letter-spacing: 2px;
+  font-family: "Barlow Condensed";
+}
+
+.contact_section .form form .input_group input {
+  outline: none;
+  border: none;
+  font-family: "Hind Siliguri";
+  background-color: #2a2a2a;
+  -webkit-box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.2), inset 2px 2px 6px rgba(0, 0, 0, 0.9);
+          box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.2), inset 2px 2px 6px rgba(0, 0, 0, 0.9);
+  color: #979797;
+  font-size: 16px;
+  height: 50px;
+  border-radius: 2px;
+  padding: 5px 5px 5px 15px;
+}
+
+.contact_section .form form .input_group input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.contact_section .form form .input_group input:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.contact_section .form form .input_group input::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.contact_section .form form .input_group input::placeholder {
+  font-size: 14px;
+}
+
+.contact_section .form form .input_group button {
+  padding: 15px 0;
+  background-color: #2a2a2a;
+  font-size: 18px;
+  letter-spacing: 1px;
+  outline: none;
+  border: none;
+  color: #ebc20b;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  cursor: pointer;
+  -webkit-box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.2), 2px 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.2), 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.contact_section .form form .input_group button:hover, .contact_section .form form .input_group button:active {
+  -webkit-box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.2), inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.2), inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+/*# sourceMappingURL=Contact.module.css.map */

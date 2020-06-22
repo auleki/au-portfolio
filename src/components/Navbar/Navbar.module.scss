@@ -1,0 +1,33 @@
+$white-color: #ffffff;
+$dark-color: #333;
+
+
+.navbar {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    .icon {
+        margin: 25px 0;
+        padding: 1rem;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        cursor: pointer;
+        text-align: center;
+        &:hover {
+            background-color: rgb(255, 28, 28);
+            color: $white-color;
+        }
+    }
+}
+
+
+
+
+
+// @media (max-width: 990px) {
+//     .navbar {
+//         display: none;
+//     }
+// }

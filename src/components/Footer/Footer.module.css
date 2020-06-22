@@ -1,0 +1,27 @@
+.footer_container {
+  padding: 25px;
+  text-align: center;
+}
+
+.footer_container .footer_span {
+  color: #f01b1b;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.footer_container .footer_span:hover {
+  background-color: rgba(73, 73, 255, 0.185);
+  color: #505050;
+}
+
+.footer_container .social_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+}
+/*# sourceMappingURL=Footer.module.css.map */
