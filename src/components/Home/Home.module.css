@@ -1,0 +1,85 @@
+@use '../../mixins/navbar' as navbar;
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.homepage {
+  height: 100vh;
+  background-color: #65e;
+  overflow: hidden;
+}
+
+.homepage .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15px;
+}
+
+.homepage .container .imageBox {
+  display: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homepage .container .imageBox img {
+  height: auto;
+  border-radius: 5px;
+  width: 25rem;
+}
+
+.homepage .container .infoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 25px;
+  color: #ffffff;
+}
+
+.homepage .container .infoBox .info {
+  display: inherit;
+  padding: 0 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+
+.homepage .container .infoBox .info span {
+  color: #4e2;
+}
+
+.homepage .container .infoBox .navbar {
+  display: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.homepage .container .infoBox .navbar .icon {
+  margin: 25px 0;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.homepage .container .infoBox .navbar .icon:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+/*# sourceMappingURL=Home.module.css.map */

@@ -1,0 +1,52 @@
+$white-color: #ffffff;
+$dark-color: #333;
+
+// @use 'mixins/center';
+@use '../../mixins/navbar' as navbar;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homepage {
+    height: 100vh;
+    background-color: #65e;
+    overflow: hidden;
+    .container {
+        height: 100%;
+        display: flex;
+        padding: 0 15px;
+        // grid-template-columns: 30% 70%;
+        .imageBox {
+            display: inherit;
+            align-items: center;
+            img {
+                height: auto;
+                border-radius: 5px;
+                width: 25rem;
+            }
+        }
+        .infoBox {
+            display: flex;
+            padding:0 25px; 
+            color: $white-color;
+            // flex-direction: column;
+            .info {
+                display: inherit;
+                padding:0 25px;
+                flex-direction: column;
+                justify-content: center;
+                // align-items: center;
+                text-align: left;
+                span {
+                    color: #4e2;
+                }
+            }
+            
+            
+        }
+    }
+}
