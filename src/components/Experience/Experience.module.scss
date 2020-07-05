@@ -1,0 +1,104 @@
+$gray: #3D3B3A;
+$white: #fff;
+
+.experiences { 
+    .title {
+        text-align: center;
+        width: 100%;        
+        h2 {            
+            font-weight: 400;
+            color: $white;
+            font-size: 2.5rem;
+        }
+    }
+    .container {
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.job {
+    // background-color: rgb(38, 68, 238);
+    // height:20rem;
+    height: 100%;
+    // width: 5rem;
+    width: 100%;
+    // padding: 3rem 1rem;
+    // padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    margin: 5rem 0;
+    color: $white;
+    width: 100%;
+
+    .icon {
+        position: relative;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-grow: 3;
+        align-items: center;
+        justify-content: center;
+        margin-top: .5rem;
+        background-color: purple;
+        // width: 30%;
+        z-index: 1;
+        // margin: 0 2rem 5rem 0;
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+        text-align: center;
+
+    }
+
+    .info {
+        // background: #e00e;
+        height: 100%;
+        padding: 1rem 0;
+        width: 90%;
+        margin: 0 5%;
+        cursor: pointer;
+        
+        h5 {
+            padding-top: 2rem;
+            
+            span {
+                color: darken($gray, 1%);
+            }
+        }
+        
+        p {
+            padding-top: 1rem;            
+        }
+
+
+
+
+        .time {
+            padding: .5rem 2rem;
+            color: $white;
+            background-color: $gray;
+            // margin: .3rem 0 0 1rem;
+            margin-bottom: .5rem;
+    
+            border-radius: 15px;
+        }
+    }
+
+    // Come back to fix the line later
+
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     top: 6rem;
+    //     left: 15px;
+    //     bottom: 0;
+    //     border-left: 3px solid rgb(49, 49, 49);
+    // }
+}
